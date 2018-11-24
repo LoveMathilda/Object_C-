@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5510CB5821A84A40005186B5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 5510CB5721A84A40005186B5 /* Person.m */; };
 		55816F5B20F799C100A9EE21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55816F5A20F799C100A9EE21 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5510CB5621A84A40005186B5 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		5510CB5721A84A40005186B5 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		55816F5720F799C100A9EE21 /* Object_C类的创建 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Object_C类的创建"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55816F5A20F799C100A9EE21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,6 +44,8 @@
 		55816F4E20F799C100A9EE21 = {
 			isa = PBXGroup;
 			children = (
+				5510CB5621A84A40005186B5 /* Person.h */,
+				5510CB5721A84A40005186B5 /* Person.m */,
 				55816F5920F799C100A9EE21 /* Object_C类的创建 */,
 				55816F5820F799C100A9EE21 /* Products */,
 			);
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5510CB5821A84A40005186B5 /* Person.m in Sources */,
 				55816F5B20F799C100A9EE21 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
