@@ -64,8 +64,8 @@ int main(int argc, const char * argv[]) {
         // insert code here...
         //Student *stu=[[Student alloc]init];
         //NSLog(@"name=%@,age=%li",[stu name],[stu age]);
-        //NSLog(@"Hello, World!");
-        //[Student testClass];
+        NSLog(@"Hello, World!");
+        [Student testClass];
         [Person testPerson];
     }
     return 0;
